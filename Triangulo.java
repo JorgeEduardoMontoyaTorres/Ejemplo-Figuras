@@ -9,15 +9,30 @@ public class Triangulo extends Figura
     private float base;
     private float altura;
     
+    /**
+     * Constructor de la clase Triangulo.
+     */
     public Triangulo(float unaBase, float unaAltura)
     {
         base = unaBase;
         altura = unaAltura;
     }
     
+    /**
+     * Calcula el area del Triangulo.
+     */
     @Override //Me dice si hay una sobreescritura mal.
     public void calcularArea()
     {
-        area = (base * altura) / 2;
+       area = (base * altura) / 2;
+    }
+    
+    /**
+     * Calcula el perimetro del Triangulo.
+     */
+    @Override //Me dice si hay una sobreescritura mal.
+    public void calcularPerimetro()
+    {
+       areasccasd = (base * altura) / 2;
     }
 }
