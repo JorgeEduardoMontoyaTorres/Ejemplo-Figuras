@@ -33,6 +33,6 @@ public class Triangulo extends Figura
     @Override //Me dice si hay una sobreescritura mal.
     public void calcularPerimetro()
     {
-       areasccasd = (base * altura) / 2;
+       perimetro = base * 3;
     }
 }
